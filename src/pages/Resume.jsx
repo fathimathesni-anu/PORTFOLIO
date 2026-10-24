@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Button, Card } from "react-bootstrap";
 import { useTheme } from "../context/ThemeContext";
-import resumeFile from "../assets/fathima thesni p.a_Entri.pdf.pdf"; // ✅ import your file
+import resumeFile from "../assets/fathima thesni p.a_Entri.pdf"; // ✅ import your file
 
 export default function Resume() {
   const { darkMode } = useTheme();
